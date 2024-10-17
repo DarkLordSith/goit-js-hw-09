@@ -9,8 +9,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.css"
     />
-    <script type="module" crossorigin src="/goit-js-hw-09/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/vendor-CgTBfC_f.js">
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/vendor-CgTBfC_f.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/1-gallery-Di91It9L.js"></script>
+    <script type="module" crossorigin src="/goit-js-hw-09/assets/2-form-B9rquSWe.js"></script>
     <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/vendor-DkczhqSJ.css">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/index-BS4TVReE.css">
   </head>
@@ -24,7 +26,9 @@
     <title>1-GALLERY</title>
   </head>
   <body>
-    <ul class="gallery"></ul>
+    <main>
+      <ul class="gallery"></ul>
+    </main>
   </body>
 </html>
 
@@ -36,25 +40,29 @@
     <title>2-FORM</title>
   </head>
   <body>
-    <form class="feedback-form" autocomplete="off">
-      <label class="form-label">
-        Email
-        <input class="form-input" type="email" name="email" autofocus />
-      </label>
-      <label class="form-label">
-        Message
-        <textarea
-          class="form-input form-textarea"
-          name="message"
-          rows="8"
-        ></textarea>
-      </label>
-      <button class="form-btn" type="submit">Submit</button>
-    </form>
+    <main>
+      <form class="feedback-form" autocomplete="off">
+        <label class="form-label">
+          Email
+          <input class="form-input" type="email" name="email" autofocus />
+        </label>
+        <label class="form-label">
+          Message
+          <textarea
+            class="form-input form-textarea"
+            name="message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="form-btn" type="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
 
     </main>
     <script src="https://cdn.jsdelivr.net/npm/simplelightbox/dist/simple-lightbox.min.js"></script>
+    <!-- <script type="module" src="./js/1-gallery.js"></script>
+    <script type="module" src="./js/2-form.js"></script> -->
   </body>
 </html>
